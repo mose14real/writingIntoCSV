@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
-</head>
-<body>
-    <form action="user_data.php" method="post">
-        
-    <label>Name:</label>
-    <input type="text" name="name" placeholder="enter your full name" required><p></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+    </head>
+    <body>
+        <form action="user_data.php" method="post">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="enter your full name" required><p></p>
 
-    <label>Email:</label>
-    <input type="email" name ="email" placeholder="example@mail.com" required><p></p>
+        <label>Email:</label>
+        <input type="email" name ="email" placeholder="example@mail.com" required><p></p>
 
-    <label>Date of Birth:</label>
-    <input type="date" name="dob" required><p></p>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required><p></p>
 
-    <label>Gender:</label>
-    
-    <label for="male">Male</label>
-    <input type="radio" value="male" name="gender" required>
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" value="male" name="gender" required>
+        <label for="female">Female</label>
+        <input type="radio" value="female" name="gender" required><p></p>
 
-    <label for="female">Female</label>
-    <input type="radio" value="female" name="gender" required><p></p>
-    
+        <label>Country:</label>
+        <input type="text" name="country" required><p></p>
 
-    <label>Country:</label>
-    <input type="text" name="country" required><p></p>
-
-    <input type="submit" name="submit" value="Submit"><p></p>
-
-    </form>
-</body>
+        <input type="submit" name="submit" value="Submit"><p></p>
+        </form>
+    </body>
 </html>
